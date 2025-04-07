@@ -3,7 +3,10 @@ set -ex
 
 echo "This is the value specified for the input 'example_step_input': ${example_step_input}"
 
-git tag -a "TESTFROMBITRISE" 9b6765399a503fc69a23c2e3c4b5c84438601b38
+git tag "test0001"
+git push origin "test0001"
+
+git tag "TESTFROMBITRISE" 9b6765399a503fc69a23c2e3c4b5c84438601b38
 git push origin "TESTFROMBITRISE"
 #
 # --- Export Environment Variables for other Steps:
